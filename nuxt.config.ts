@@ -21,6 +21,12 @@ export default defineNuxtConfig({
         { rel: "icon", href: "/owo.png" },
         // <link rel="preload" as="image" href="img.png" />
         { rel: "preload", as: "image", href: "/images/banner.webp" },
+        {
+          rel: "preload",
+          fetchpriority: "high",
+          as: "image",
+          href: "/images/background.webp",
+        },
       ],
       meta: [
         {
