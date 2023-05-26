@@ -20,11 +20,11 @@ export default defineNuxtConfig({
         { rel: "canonical", href: "https://kaze-no-sora.mishu.dev" },
         { rel: "icon", href: "/owo.png" },
         // <link rel="preload" as="image" href="img.png" />
-        { rel: "preload", as: "image", href: "/images/banner.webp" },
+        { rel: "preload", as: "video", href: "/images/banner.webp" },
         {
           rel: "preload",
           fetchpriority: "high",
-          as: "image",
+          as: "video",
           href: "/images/background.webp",
         },
       ],
