@@ -73,7 +73,7 @@
           <div class="flex justify-center pt-10">
             <NuxtLink to="https://discord.gg/gk7rjCYbHN" target="_blank">
               <button
-                class="bg-emerald-500 hover:bg-white hover:text-sky-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
+                class="bg-emerald-600 hover:bg-white hover:text-emerald-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
               >
                 Join Server
               </button>
